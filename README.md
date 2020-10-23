@@ -42,7 +42,7 @@ Questions to consider:
 Here is an example of how to embed images from your sub-folder:
 
 ### Visual 1
-![Figure 1](https://https://github.com/etr359/Predicting_KC_Housing_Prices/price by bedrooms boxplot.png)
+![Figure 1](http://localhost:8983/view/price%20by%20bedrooms%20boxplot.png)
 
 ## Conclusions
 
