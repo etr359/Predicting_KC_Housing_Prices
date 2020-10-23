@@ -29,8 +29,6 @@ A series of linear regressions were estimated on an 80:20 train-test split to as
 
 As a sensitivity analysis we constructed a model using a purely data driven approach.  To complete this we contructed all dummy variables for all possible categorical values, and constructed all second order polynomials and interactions possible given the variables using the PolynomialFeatures class in sklearn.preprocessing.  We selected the 110 best variables using the SelectKBest class in sklearn.feature_selection using the F-test as our criteria.  One hundred ten was chosen follwing the rule of thumb to avoid the curse of dimensionality - the square root of the training split rounded down to 110.
 
-Once these were identified, appropiate action was taken to remove or transform to facilitate analysis. Value counts were calculated for categorical variables to assess distributions, cell counts and missing values. Categories were excluded or collapsed as necessary as detailed in our Jupyter Notebook. Our final analysis consisted of various visualizations addressing our three key questions of interest. Scatterplots were utilized when the variables were both continous, and barcharts used when summarizing continuous variables across categories.
-
 ## Results
 
 Present your key results. For Phase 1, this will be findings from your descriptive analysis.
@@ -44,7 +42,7 @@ Questions to consider:
 Here is an example of how to embed images from your sub-folder:
 
 ### Visual 1
-![graph1](./images/viz1.png)
+![Figure 1](https://https://github.com/etr359/Predicting_KC_Housing_Prices/price by bedrooms boxplot.png)
 
 ## Conclusions
 
