@@ -23,23 +23,17 @@ Data for this analysis is of home sales in Kings County, Washington over the pas
 
 ## Methods
 
-Descriptive statistics and histograms were created for continuous variables to assess the distribution and evaluate measures of central tendency and dispersion.  Value counts were calculated for all categorical variables.  Scatterplots or box plots (as appropriate) were assessed between the sale price, and continuous and categorical features to visualize associations to determine cutpoints for the creation of categorical variables and to determine whether linear transformations of continuous variables were necessary. Bivariable tests of association (ANOVA and Pearon's Correlation Coefficient) were calculated to aid in this process.
+Descriptive statistics and histograms were created for continuous variables to assess the distribution and evaluate measures of central tendency and dispersion.  Value counts were calculated for all categorical variables.  Scatterplots or box plots (as appropriate) were assessed between the sale price, and continuous and categorical features to visualize associations to determine cutpoints for the creation of categorical variables and to determine whether linear transformations of continuous variables were necessary. Bivariable tests of association (ANOVA and Pearon's Correlation Coefficient) were calculated to aid in this process.  An example boxplot between the number of bedrooms and the home price is displayed below in figure 1.
 
 A series of linear regressions were estimated on an 80:20 train-test split to assess model fit through a stepwise process.  A baseline conceptually derived model based on EDA was constructed and iterations including engineered features consisting of logarithmic transformations polynomials, and interactions.  Overfitting was assessed by comparing the RMSE of the model on the training and testing data.  Model prediction was assessed by comparing the adjusted R-sqaure and the RMSE of the test set model between models.
 
 As a sensitivity analysis we constructed a model using a purely data driven approach.  To complete this we contructed all dummy variables for all possible categorical values, and constructed all second order polynomials and interactions possible given the variables using the PolynomialFeatures class in sklearn.preprocessing.  We selected the 110 best variables using the SelectKBest class in sklearn.feature_selection using the F-test as our criteria.  One hundred ten was chosen follwing the rule of thumb to avoid the curse of dimensionality - the square root of the training split rounded down to 110.
 
+![Figure 1](/Images/price_by_bedrooms_boxplot.png)
+
 ## Results
 
 Our final model had an adjusted R-squared of 0.649.  The RMSE of the training set was 207993.96 and the RMSE of the test set was 203547.00.
-
-### Visual 1
-![Figure 1](/Images/price_by_bedrooms_boxplot.png)
-
-
-![graph1](./images/viz1.png)
-
-![Figure 1](./images/price_by_bedrooms_boxplot.png)
 
 ## Conclusions
 
