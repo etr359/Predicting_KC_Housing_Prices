@@ -2,20 +2,9 @@
 Creating a prediction model for home prices in Kings County, WA
 **Author**: Eric Roberts
 
-## Overview
-
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
-
 ## Business Problem
 
 Create a prediction model for the sale price of homes in Kings County, Washington.
-
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
 
 ## Data
 
