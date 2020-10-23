@@ -42,7 +42,9 @@ Questions to consider:
 Here is an example of how to embed images from your sub-folder:
 
 ### Visual 1
-![Figure 1](http://localhost:8983/view/price%20by%20bedrooms%20boxplot.png)
+![graph1](./images/viz1.png)
+
+![Figure 1](./price_by_bedrooms_boxplot.png)
 
 ## Conclusions
 
