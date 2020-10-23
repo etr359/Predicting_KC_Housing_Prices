@@ -41,9 +41,9 @@ Our final model explains 65% of the variance in sale price of the home.  Improve
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./Modeling-home-prices-in-Kings-County.ipynb).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Eric Roberts, etr359@gmail.com**
 
 ## Repository Structure
 
@@ -51,8 +51,8 @@ Describe the structure of your repository and its contents, for example:
 
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── Modeling-home-prices-in-Kings-County.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── Predict_holdout.ipynb         <- Narrative documentation of application of model to a holdout dataset in Jupyter notebook
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
 ```
